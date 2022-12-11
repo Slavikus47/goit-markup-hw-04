@@ -222,6 +222,8 @@ padding-bottom: 94px;
 /* -------------- Benefits-list *** Увага до деталей -------------- */
 
 .icon-benefits {
+  justify-content:center;
+  align-items: center;
   display: flex;
   width: 270px;
   height: 120px;
@@ -231,7 +233,6 @@ padding-bottom: 94px;
 }
 
 .icon-svg {
-  margin: auto;
   width: 70px;
   height: 70px;
 }
@@ -378,17 +379,18 @@ padding-bottom: 94px;
 
 .footer {
   background-color: var(--background-section);
+  padding: 60px 0;
 } 
 
 .webstudio-footer {
-  margin-top: 60px;
   margin-right: 70px;
-  margin-bottom: 60px;
+ 
 
 }
 
 .footer-contacts {
   display: flex;
+  align-items: baseline;
   background-color: var(--background-section);
 }
 
@@ -474,10 +476,6 @@ padding-bottom: 94px;
 }
 
 /* -----------------Приєднуйтесь---------------------- */
-
-.join {
-  margin-top: 72px;
-}
 
 .join h3 {
 margin-bottom: 20px;
